@@ -29,7 +29,7 @@ class BackEndJobTest.Views.Roman extends Backbone.View
   romanCheck: (e)->
     specialKeys = [8]
     keyCode = (if e.which then e.which else e.keyCode)
-    if !_.contains [73, 86, 88, 76, 67, 68, 77], keyCode
+    if !(_.contains( [73, 86, 88, 76, 67, 68, 77], keyCode) or specialKeys.indexOf(keyCode) isnt -1)
       e.preventDefault()
       false
 
