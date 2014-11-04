@@ -11,5 +11,4 @@
     <label for="roman_s">Roman (smallest string length) </label>
     <input type='text' id="roman_s" name="roman_s" class="form-control" readonly='true'/>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
 </form>
