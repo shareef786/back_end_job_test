@@ -1,0 +1,10 @@
+<form role="form" id="temperature">
+  <div class="form-group">
+    <label for="temperature_c">Temperature in celcious</label>
+  <input type='text' id="temperature_c" name="temperature_c" placeholder='Temperature in celcious' class="form-control"/>degrees Celsius
+  </div>
+  <div class="form-group">
+    <label for="temperature_f">Temperature in Farenhit</label>
+    <input type='text' id="temperature_f" name="temperature_f" placeholder='Temperature in Farenhit' class="form-control"/>degrees Fahrenheit
+  </div>
+</form>
