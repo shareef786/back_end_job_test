@@ -3,6 +3,7 @@ class ConvertersController < ApplicationController
   require "ext/integer"
   respond_to :json
 
+  # api/converters.json
   def index
     if params[:roman]
       @roman = params[:roman].to_arabic.to_roman
